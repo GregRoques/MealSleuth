@@ -20,6 +20,8 @@ if (navigator.geolocation) {
 $('.search-form').submit((e)=>{
     e.preventDefault();
 
+    $(".search-box").css("margin-bottom", 0);
+
      // ================== Generate Parameters for Google Nearby Search URL
         
         const dirLanguage = "en";
